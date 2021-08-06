@@ -4,11 +4,13 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - BigEnemy
-  - SimpleEnemy
   - Ground
   - Walls
   - Obstacles
+  - Enemy
+  - Range
+  - SimpleEnemy
+  - BigEnemy
   layers:
   - Default
   - TransparentFX
@@ -20,8 +22,8 @@ TagManager:
   - Wall
   - Obstacles
   - Player
-  - 
-  - 
+  - BigEnemy
+  - SimpleEnemy
   - 
   - 
   - 
