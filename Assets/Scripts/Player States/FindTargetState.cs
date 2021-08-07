@@ -16,12 +16,12 @@ public class FindTargetState : PlayerState
         }
     }
 
-    public override void OnTriggerExit(Collider other)
-    {
-        if (other.tag == "Enemy")
-        {
-            parent.Target = null;
-            parent.ChangeState(new IdleState());
-        }
-    }
+    //public override void OnTriggerExit(Collider other)
+    //{
+    //    if (other.tag == "Enemy")
+    //    {
+    //        parent.Target = null;
+    //        parent.ChangeState(new IdleState());
+    //    }
+    //}
 }
